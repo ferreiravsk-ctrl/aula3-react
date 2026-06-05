@@ -1,16 +1,73 @@
-# React + Vite
+# Aula 3 - React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido na disciplina de Análise e Desenvolvimento de Sistemas utilizando React com Vite.
 
-Currently, two official plugins are available:
+## Atividade 01 - Criação do Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Criação do projeto React utilizando Vite.
+* Configuração inicial da estrutura do projeto.
 
-## React Compiler
+## Atividade 02 - Instalação e Execução
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Instalação das dependências com npm.
+* Execução do servidor de desenvolvimento utilizando Vite.
+* Teste do Hot Reload.
 
-## Expanding the ESLint configuration
+## Atividade 03 - Componente Saudacao
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Criação do componente funcional `Saudacao`.
+* Importação e renderização do componente em `App.jsx`.
+
+## Atividade 04 - Componente Cartao
+
+* Criação do componente `Cartao`.
+* Utilização de múltiplos elementos HTML dentro de um único elemento raiz.
+* Composição dos componentes em `App.jsx`.
+
+## Atividade 05 - Expressões JSX
+
+* Utilização de variáveis, operações matemáticas e funções dentro do JSX.
+* Exibição dinâmica de informações na interface.
+
+## Atividade 06 - Estilos Inline
+
+* Aplicação de estilos utilizando o atributo `style`.
+* Uso de objetos JavaScript para estilização.
+* Aplicação de atributos JSX.
+
+## Atividade 07 - CSS Externo
+
+* Criação do arquivo `Cartao.css`.
+* Separação da estilização da lógica dos componentes.
+* Utilização de `className` para aplicar estilos.
+
+## Atividade 08 - Componente Cabecalho
+
+* Criação do componente `Cabecalho`.
+* Organização da aplicação através da composição de componentes.
+* Aplicação de CSS específico para o cabeçalho.
+
+## Atividade 09 - Estrutura React
+
+* Análise do funcionamento de `index.html`, `main.jsx` e `App.jsx`.
+* Compreensão do uso de `ReactDOM.createRoot()`.
+* Entendimento do processo de renderização da aplicação.
+
+## Atividade 10 - Página Final
+
+* Integração de todos os componentes desenvolvidos.
+* Criação de uma página pessoal utilizando React.
+* Utilização de CSS externo para estilização.
+* Estrutura composta por Cabeçalho, Saudação, Cartões e Rodapé.
+
+## Tecnologias Utilizadas
+
+* React
+* Vite
+* JavaScript
+* HTML5
+* CSS3
+
+## Autor
+
+Pedro
